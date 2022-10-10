@@ -1,0 +1,126 @@
+Column  Name  	     	           	    	       	             	             ,Description,Type 
+country  	     	           	    	       	             	             ,Country name ,String 
+cases - cumulative total 	    	       	             	             ,Total number of cumulative confirmed cases reported to WHO to date.,Float 
+cases - cumulative total per 100000 population,"Cumulative confirmed cases reported to WHO to date per 100,000 population.",Float 
+cases - newly reported in last 7 days,New confirmed cases reported in the last 7 days. Calculated by subtracting previous cumulative case count (8 days prior) from current cumulative cases count.,Integer 
+cases - newly reported in last 7 days per 100000 population,"New confirmed cases reported in the last 7 days per 100,000 population.",Float 
+cases - newly reported in last 24 hours,New confirmed cases reported in the last 24 hours. Calculated by subtracting previous cumulative case count from current cumulative cases count.,Integer 
+deaths - cumulative total	    	       	             	             ,Total number of cumulative confirmed deaths reported to WHO to date.,Integer 
+deaths - cumulative total per 100000 population,"Cumulative confirmed deaths reported to WHO to date per 100,000 population.",Float 
+deaths - newly reported in last 7 days,New confirmed deaths reported in the last 7 days. Calculated by subtracting previous cumulative death count (8 days prior) from current cumulative deaths count.,Integer 
+deaths - newly reported in last 7 days per 100000 population,"New confirmed deaths reported in the last 7 days per 100,000 population.",Float 
+date     	     	           	    	       	             	             ,Date the observation was recorded ,Date
+who_region    	           	    	       	             	             ,"World Health Organization (WHO) regional offices: WHO Member States are grouped into six WHO regions Regional Office for Africa (AFRO), Regional Office for the Americas (AMRO), Regional Office for South-East Asia (SEARO), Regional Office for Europe (EURO), Regional Office for the Eastern Mediterranean (EMRO), and Regional Office for the Western Pacific (WPRO).",String 
+new_cases	     	           	    	       	             	             ,New confirmed cases. Calculated by subtracting previous cumulative case count from current cumulative cases count.*,Integer 
+cumulative_cases         	    	       	             	             ,Cumulative confirmed cases reported to WHO to date.,Integer 
+new_deaths    	           	    	       	             	             ,New confirmed deaths. Calculated by subtracting previous cumulative deaths from current cumulative deaths.*,Integer 
+cumulative_deaths        	    	       	             	             ,Cumulative confirmed deaths reported to WHO to date.,Integer 
+iso3,ISO Alpha-3 country code,String 
+date_updated  	           	    	       	             	             ,Date of last update,Date 
+total_vaccinations       	    	       	             	             ,Cumulative total vaccine doses administered,Integer 
+persons_vaccinated_1plus_dose,Cumulative number of persons vaccinated with at least one dose,Float 
+total_vaccinations_per100,Cumulative total vaccine doses administered per 100 population,Integer 
+persons_vaccinated_1plus_dose_per100,Cumulative persons vaccinated with at least one dose per 100 population,Float 
+persons_fully_vaccinated 	    	       	             	             ,Cumulative number of persons fully vaccinated,Integer 
+persons_fully_vaccinated_per10	0,Cumulative number of persons fully vaccinated per 100 population,Float 
+vaccines_used 	           	    	       	             	             ,Combined short name of vaccine: “Company - Product name” ,String 
+first_vaccine_date       	    	       	             	             ,Date of first vaccinations. Equivalent to start/launch date of the first vaccine administered in a country.,Date
+number_vaccines_types_used   	       	             	             ,"Number of vaccine types used per country, territory, area",Integer 
+persons_booste	r_add_dose 	    	       	             	             ,Persons received booster or additional dose,Integer 
+persons_booste	r_add_dose_per100,Persons received booster or additional dose per 100 population,Float 
+retail_and_recreation    	    	       	             	             ,"Changes in visitors to places of retail and recreation relative to a baseline day. A baseline day represents a normal value for that day of the week. The baseline day is the median value from the 5‑week period Jan 3 – Feb 6, 2020. This index is smoothed to the rolling 7-day average. This category includes places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.",Float 
+grocery_and_pharmacy     	    	       	             	             ,"Changes in visitors to grocery and pharmacy stores relative to a baseline day. A baseline day represents a normal value for that day of the week. The baseline day is the median value from the 5‑week period Jan 3 – Feb 6, 2020. This index is smoothed to the rolling 7-day average. This category includes places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.",Float 
+residential   	           	    	       	             	             ,"Changes in the duration of time spent in places of residence relative to a baseline day. A baseline day represents a normal value for that day of the week. The baseline day is the median value from the 5‑week period Jan 3 – Feb 6, 2020. This index is smoothed to the rolling 7-day average.",Float 
+transit_stations         	    	       	             	             ,"Changes in visitors to transit stations relative to a baseline day. A baseline day represents a normal value for that day of the week. The baseline day is the median value from the 5‑week period Jan 3 – Feb 6, 2020. This index is smoothed to the rolling 7-day average. This category includes places like public transport hubs such as subway, bus, and train stations.",Float  
+parks    	     	           	    	       	             	             ,"Changes in visitors to parks relative to a baseline day. A baseline day represents a normal value for that day of the week. The baseline day is the median value from the 5‑week period Jan 3 – Feb 6, 2020. This index is smoothed to the rolling 7-day average. This category includes places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.",Float 
+workplaces    	           	    	       	             	             ,"Changes in visitors to workplaces relative to a baseline day. A baseline day represents a normal value for that day of the week. The baseline day is the median value from the 5‑week period Jan 3 – Feb 6, 2020. This index is smoothed to the rolling 7-day average.",Float 
+debt_relief   	           	    	       	             	             ,"This metric records if the Government is freezing financial obligations (e.g. stopping loan repayments, preventing services like water from stopping, or banning evictions).
+0 - No debt relief
+1 - Narrow relief, specific to one kind of contract
+2 - broad debt/contract relief",Integer
+income_support	           	    	       	             	             ,"This metric captures if the government is covering the salaries or providing direct cash payments, universal basic income, or similar, of people who lose their jobs or cannot work. (Includes payments to firms if explicitly linked to payroll/ salaries).
+0 - no income support
+1 - government is replacing less than 50% of lost salary (or if a flat sum, it is less than 50% median salary)
+2 - government is replacing 50% or more of lost salary (or if a flat sum, it is greater than 50% median salary)",Integer
+testing_policy	           	    	       	             	             ,"0 – No testing policy
+1 – Only those who both (a) have symptoms AND (b) meet specific criteria (eg key workers, admitted to hospital, came into contact with a known case, returned from overseas)
+2 – testing of anyone showing COVID-19 symptoms
+3 – open public testing (e.g. “drive through” testing available to asymptomatic people)",Integer
+international_travel_controls	       	             	             ,"0 - No measures
+1 - Screening
+2 - Quarantine arrivals from high-risk regions
+3 - Ban on high-risk regions
+4 - Total border closure",Integer
+restrictions_internal_movements     	             	             ,"0 - No measures
+1 - Recommend movement restriction
+2 - Restrict movement",Integer
+close_public_transport   	    	       	             	             ,"0 - No measures
+1 - Recommend closing (or significantly reduce volume/route/means of transport available)
+2 - Require closing (or prohibit most citizens from using it)",Integer
+stay_home_requirements   	    	       	             	             ,"0 - No measures
+1 - recommend not leaving house
+2 - require not leaving house with exceptions for daily exercise, grocery shopping, and ‘essential’ trips
+3 - Require not leaving house with minimal exceptions (e.g. allowed to leave only once every few days, or only one person can leave at a time, etc.)",Integer
+restriction_gatherings   	    	       	             	             ,"0 - No restrictions
+1 - Restrictions on very large gatherings (the limit is above 1,000 people)
+2 - Restrictions on gatherings between 100-1,000 people
+3 - Restrictions on gatherings between 10-100 people
+4 - Restrictions on gatherings of less than 10 people",Integer
+cancel_public_events     	    	       	             	             ,"0- No measures
+1 - Recommend cancelling
+2 - Require cancelling",Integer
+workplace_closures       	    	       	             	             ,"0 - No measures
+1 - recommend closing (or work from home)
+2 - require closing (or work from home) for some
+sectors or categories of workers
+3 - require closing (or work from home) all but essential workplaces (e.g. grocery stores, doctors)",Integer
+school_closures          	    	       	             	             ,"0 - No measures
+1 - recommend closing
+2 - Require closing (only some levels or categories,
+e.g. just high school, or just public schools)
+3 - Require closing all levels",Integer
+containment_index        	    	       	             	             ,This index simply records the strictness of government policies A higher score indicates a stricter response (i.e. 100 = strictest response),Integer 
+public_information_campaigns 	       	             	             ,"0 -No COVID-19 public information campaign
+1 - public officials urging caution about COVID-19
+2 - coordinated public information campaign (e.g. across traditional and social media)",Integer
+facial_coverings         	    	       	             	             ,"0- No policy
+1- Recommended
+2- Required in some specified shared/public spaces outside the home with other people present, or some situations when social distancing not possible
+3- Required in all shared/public spaces outside the home with other people present or all situations when social distancing not possible
+4- Required outside the home at all times, regardless of location or presence of other people",Integer
+vaccination_policy       	    	       	             	             ,"0 - No availability
+1 - Availability for ONE of the following: key workers/ clinically vulnerable groups / elderly groups
+2 - Availability for TWO of the following: key workers/ clinically vulnerable groups / elderly groups
+3 - Availability for ALL the following: key workers/ clinically vulnerable groups / elderly groups
+4 - Availability for all three, plus partial additional availability (select broad groups/ages)
+5 - Universal availability",Integer
+day of the week          	    	       	             	             ,Day of the week starting from Monday (0) ending on Sunday (6),Integer 
+day of the week string   	    	       	             	             ,Day of the week ,String 
+day      	     	           	    	       	             	             ,Day of the date,Integer 
+month    	     	           	    	       	             	             ,Month of the Date ,Integer
+year     	     	           	    	       	             	             ,Year of the date ,Integer
+weekend  	     	           	    	       	             	             ,Binary variable that indicates if its a weekend or not (Saturday or Sunday ),String 
+death ratio   	           	    	       	             	             ,Total number of cases divided by total number of deaths ,Float 
+continent	     	           	    	       	             	             ,Continent ,String
+latitude 	     	           	    	       	             	             ,Latitude measure per country ,Float 
+longitude	     	           	    	       	             	             ,Longitude measure per country ,Float 
+pop2022,Population in 2022,Float 
+pop2021,Population in 2021,Float 
+growthrate    	           	    	       	             	             ,Growth Rate ,Float 
+area     	     	           	    	       	             	             ,Area of country ,Integer
+density  	     	           	    	       	             	             ,Density of the population ,Float 
+life expectancy(both sexes)  	       	             	             ,Average life expectancy for both sexes ,Float 
+life expectancy(females) 	    	       	             	             ,Average life expectancy for females,Float 
+life expectancy(males)   	    	       	             	             ,Average life expectancy for males,Float 
+sub-region    	           	    	       	             	             ,The primary division of biographical region ,String
+income group  	           	    	       	             	             ,Countries are classified according to their income into groups ,String
+rural percentage(2021),Rural population refers to people living in rural areas as defined by national statistical offices in 2021. It is calculated as the difference between total population and urban population.,Float 
+average temperature(1991-2020	) c,Average temperature for years between 1991 and 2020 in Celsius,Float 
+coldest month(1991-2020) c,Coldest temperature for years between 1991 and 2020 in Celsius,Float 
+hottest month(1991-2020) c,Hottest temperature for years between 1991 and 2020 in Celsius,Float 
+variation(1991-2020) c,The variation in temperatures for years between 1991 and 2020 in Celsius,Float 
+no. of ti	me zones        	    	       	             	             ,Number of time zones included ,Integer
+time zone	     	           	    	       	             	             ,Time zones ,String
+poverty percentage       	    	       	             	             ,Percentage of poverty ,Float 
+legatumrank2020,"The Legatum Prosperity Index (LPI) is a framework that assesses countries on the promotion of their residents' flourishing, reflecting both economic and social wellbeing. This feature ranks countries for 2020",Integer (ordinal)
+legatumrank2019,"The Legatum Prosperity Index (LPI) is a framework that assesses countries on the promotion of their residents' flourishing, reflecting both economic and social wellbeing. This feature ranks countries for 2019",Integer (ordinal)
