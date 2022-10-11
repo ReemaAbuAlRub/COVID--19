@@ -120,7 +120,7 @@ coldest month(1991-2020) c,Coldest temperature for years between 1991 and 2020 i
 hottest month(1991-2020) c,Hottest temperature for years between 1991 and 2020 in Celsius,Float 
 variation(1991-2020) c,The variation in temperatures for years between 1991 and 2020 in Celsius,Float 
 no. of ti	me zones        	    	       	             	             ,Number of time zones included ,Integer
-time zone	     	           	    	       	             	             ,Time zones ,String
+time zone	     	           	    	       	             	             ,The time zones in each country ,String
 poverty percentage       	    	       	             	             ,Percentage of poverty ,Float 
 legatumrank2020,"The Legatum Prosperity Index (LPI) is a framework that assesses countries on the promotion of their residents' flourishing, reflecting both economic and social wellbeing. This feature ranks countries for 2020",Integer (ordinal)
 legatumrank2019,"The Legatum Prosperity Index (LPI) is a framework that assesses countries on the promotion of their residents' flourishing, reflecting both economic and social wellbeing. This feature ranks countries for 2019",Integer (ordinal)
